@@ -94,11 +94,12 @@ const Hero = ({ scrollY }) => {
               
               {/* Avatar Content */}
               <div className="absolute inset-4 rounded-xl bg-gradient-to-br from-[#1a1a2e] to-[#16213e] flex items-center justify-center overflow-hidden">
-                <div className="text-center space-y-4">
-                  <div className="w-32 h-32 mx-auto rounded-full bg-gradient-to-br from-[#8b5cf6] to-[#a78bfa] flex items-center justify-center text-6xl font-bold text-white">
-                    IKQ
-                  </div>
-                  <div className="text-[#9ca3af] font-mono text-sm">Photo Coming Soon</div>
+                <div className="absolute inset-4 rounded-xl bg-gradient-to-br from-[#1a1a2e] to-[#16213e] overflow-hidden">
+                <img
+                  src="/FullSizeRender-2.jpg"
+                  alt="Profile"
+                  className="w-full h-full object-cover"
+                />
                 </div>
               </div>
 
